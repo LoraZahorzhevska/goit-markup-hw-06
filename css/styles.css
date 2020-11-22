@@ -618,6 +618,46 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.container-input {
+  margin-left: 93px;
+  padding-top: 72px;
+  padding-bottom: 94px;
+}
+
+.form-field-footer {
+  display: flex;
+}
+
+.form-input-footer {
+  margin: 0;
+  margin-right: 12px;
+  padding: 15px 0 15px 16px;
+  width: 358px;
+  height: 50px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: transparent;
+
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-form .button {
+  display: inline-flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 29px;
+  border: none;
+}
+
+.footer-icon {
+  /* width: 24px;
+  height: 24px; */
+}
+
 .backdrop .is-hidden {
   opacity: 0;
   pointer-events: none;
@@ -755,68 +795,21 @@ img {
   resize: none;
 }
 
-/* .form-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  color: var(--primary-text-color);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-} */
-
-/* .form-check{
+.form-check {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+
+  position: absolute;
 }
 
-.label::before{
+.label-check::before {
   content: "";
   display: inline-block;
   width: 16px;
   height: 15px;
   background-color: tomato;
-} */
-
-
-/* .link-accept {
-  color: var(--accent-color);
-  text-decoration: underline;
-} */
-/* 
-/* .form-box input[type="checkbox"] {
-  opacity: 0;
 }
-
-.form-box label {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.form-box label::before {
-  content: "";
-  display: inline-block;
-  width: 16px;
-  height: 15px;
-  margin-right: 10px;
-}
-
-.form-box input[type="checkbox"]:focus + label::before {
-  outline: var(--accent-color) auto 1px;
-}
-
-.form-box input[type="checkbox"] + label::before {
-  background: url(../images/check-before.svg);
-}
-
-.form-box input[type="checkbox"]:checked + label::before {
-  background: url(../images/check-after.svg); */
-} */
 
 form .button {
   display: block;
